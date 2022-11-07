@@ -45,3 +45,11 @@ def check_delta_positive(a,b,c):
         return True
     else:                                       # If descriminant is negative then return False.
         return False
+
+def in_prog1():
+    '''Function that make solving the 2nd degree equation more interactive.
+    '''
+    a = float(input('Enter the value of a:'))
+    b = float(input('Enter the value of b:'))
+    c = float(input('Enter the value of c:'))
+    print('The solution is : S =', sde_resolution(a, b, c))
